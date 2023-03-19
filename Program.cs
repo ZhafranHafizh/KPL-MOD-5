@@ -8,6 +8,8 @@ namespace TP_MOD5_1302210036
             HaloGeneric<String> sapa = new HaloGeneric<String>();
             String Nama = "Zhafran Hafizh";
             sapa.SapaUser(Nama);
+            DataGeneric<String> dataSv = new DataGeneric<string>("1302210036");
+            dataSv.PrintData();
         }
     }
 }
